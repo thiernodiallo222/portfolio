@@ -1,24 +1,179 @@
-img{
-    border-radius: 50%;
-    background: white;
-}
-
 .container{
     display: flex;
-    flex-flow: row wrap;
-      
-    .quadrant{
-    width: 45%;
-    height: auto;
-    margin: 2.5%;
-    box-sizing: border-box;
-    background: white;
-    }
-    .quadrant-two, .quadrant-tree{
-        padding: 2.5%;
-        font-size: 1.5rem;
-        line-height: 1.6rem;
+    justify-content: center;
+    align-items: center;
 
+    .image-quadrant{
+    width: 50%;
+    height: fit-content;
+    box-sizing: border-box;
+    border-radius: 360px;
+    padding: 2rem;
+}
+
+
+    .text-quadrant{
+        width: 50%;
+        padding: 2rem;
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+        background: rgb(245, 246, 247);
+        border-radius: 5px;
+       
+        
     }
+
 
 }
+
+
+.wrapper
+{
+width: 99.9%;
+height: 52rem;
+// border: 2px solid greenyellow;
+display: flex;
+
+    .left-div
+    {
+        width: 20%;
+        height: vh;
+        background-color: rgb(47,44,73);
+        color: white;
+        font-size: 6rem;
+        justify-content: center;
+        text-align: center;
+        border: 2px, solid, white;
+    
+       
+        
+
+        .paragraph{
+            align-items: center;
+            margin-top: 80%;
+            // margin-bottom: 0%;
+            box-sizing: border-box;
+        }
+        // border: 2px solid maroon;
+    }
+    .right-div
+    {
+        width: 80%;
+        height: auto;
+        // border: 2px solid black;
+
+
+        .top-container
+        {
+            width: 100%;
+            height: 20%;
+            // border: 2px solid gray;
+            font-size: 1.5rem;
+            
+            padding: 1.5rem;
+            color: rgb(20,18,31);
+        
+        }
+
+        .bottom-container
+        {
+        width: 100%;
+        height: 80%;
+        // border: 2px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+         
+            .boxes 
+            {
+       width: 33%;
+       height: 32%;
+       border: 2px solid white;
+       margin-top: .5px;
+        margin-bottom: .5%;
+        box-sizing: border-box;
+        border-radius: 4px;
+        color: white;
+        font-size: 1.3rem;
+        text-indent: 1rem;
+        padding: 1rem;
+          }
+         
+        // .boxes:nth-child(7){
+        //     margin-bottom: 0;
+        //     border-bottom: none;
+        // }
+        // .boxes:nth-child(8){
+        //     margin-bottom: 0;
+        //      border-bottom: none;
+        // }
+        // .boxes:nth-child(9){
+        //     margin-bottom: 0;
+        //      border-bottom: none;
+        // }
+       
+
+                .boxOne
+                {
+                    background: rgb(20,18,31);
+
+                }
+                .boxTwo
+                {
+                    background-color: rgb(16,63,118);
+
+                }
+                .boxTree
+                {
+                    background-color:rgb(62,182,228) ;
+
+                }
+                .boxFour
+                {
+                    background-color: rgb(47,45,74) ;
+
+                }
+                .boxFive
+                {
+                    background-color:rgb(32,99,173) ;
+
+                }
+                .boxSix
+                {
+                    background-color: rgb(214,76,93) ;
+
+                }
+                .boxSeven
+                {
+                    background-color:rgb(30, 28, 41) ;
+
+                }
+                .boxEight
+                {
+                    background-color: rgb(26,73,128);
+
+                }
+                .boxNine
+                {
+                    background-color:rgb(72,192,238) ;
+
+                }
+        }// bootom container closes here
+
+        .bottom-container >:nth-child(7){
+             margin-bottom: 0;
+            border-bottom: none;
+          }
+          .bottom-container >:nth-child(8){
+             margin-bottom: 0;
+            border-bottom: none;
+          }
+          .bottom-container >:nth-child(9){
+             margin-bottom: 0;
+            border-bottom: none;
+          }
+
+    }  // right div closes 
+
+} // main container closes
